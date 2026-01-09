@@ -9,7 +9,7 @@ function App() {
     try {
       const payload = '{"id": 9007199254740993, "amount": 5000}';
       
-      const res = await fetch('https://level-10-api-xyz.onrender.com/transaction', { 
+      const res = await fetch('https://level-10-ledger.onrender.com/transaction', { 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: payload
